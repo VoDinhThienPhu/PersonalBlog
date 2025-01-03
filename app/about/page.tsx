@@ -3,6 +3,7 @@ import React from "react";
 
 const PersonalInfo: React.FC = () => {
   return (
+    <div className="bg-amber-50 mt-[-20px]">
     <div className="container mx-auto mt-5 p-5 max-w-2xl bg-white shadow-md rounded-lg relative">
       <div className="profile-picture absolute top-5 right-5 w-60 h-60 rounded-full border-4 border-pink-400 overflow-hidden shadow-md">
         <img
@@ -19,7 +20,7 @@ const PersonalInfo: React.FC = () => {
         <p>Họ và tên: Võ Đình Thiên Phú</p>
         <p>Email: phu0367911788@gmail.com</p>
         <p>Số điện thoại: 0903 02 00 50</p>
-        <p>Địa chỉ: F12/41Y Quách Điêu, ấp 6a, xã Vĩnh Lộc A, huyện Bình Chánh</p>
+        <p>Địa chỉ: Quách Điêu, xã Vĩnh Lộc A, huyện Bình Chánh</p>
       </div>
 
       <div className="section mb-5">
@@ -58,11 +59,33 @@ const PersonalInfo: React.FC = () => {
         </ul>
       </div>
 
+      <div className="section mb-5">
+        <h2 className="text-xl font-semibold text-pink-400 mb-3">Chứng chỉ</h2>
+        <ul className="list-disc list-inside">
+        <img
+                    src="/Java1.png"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+        <img
+                    src="/Java2.png"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+                <img
+                    src="/Networking_Basic.png"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+        </ul>
+      </div>
+
       <div className="back-link text-center mt-5">
-        <Link href="/blog" className="text-pink-400 font-bold">
-          Quay lại Trang Blog
+        <Link href="/" className="text-pink-400 font-bold">
+          Quay lại Trang Chủ
         </Link>
       </div>
+    </div>
     </div>
   );
 };

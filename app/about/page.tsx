@@ -60,6 +60,29 @@ const PersonalInfo: React.FC = () => {
       </div>
 
       <div className="section mb-5">
+        <h2 className="text-xl font-semibold text-pink-400 mb-3">Một số thành quả</h2>
+        <ul className="list-disc list-inside">
+        <li>Web đặt phòng game Escape Room</li>
+        <img
+                    src="/web.png"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+        <img
+                    src="/web2.png"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+        <li>Ứng dụng tư vấn sức khỏe trực tuyến và đặt phòng khám bệnh</li>
+        <img
+                    src="/z6147269923066_d8fb9de58dafaf8445b19c2e066d17fc.jpg"
+                    alt="Giới thiệu về Java"
+                    className="w-full rounded-lg mb-6"
+                />
+        </ul>
+      </div>
+
+      <div className="section mb-5">
         <h2 className="text-xl font-semibold text-pink-400 mb-3">Chứng chỉ</h2>
         <ul className="list-disc list-inside">
         <img
